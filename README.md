@@ -4,6 +4,8 @@
 
 #### Firebase used for backend to store users and their expenses
 
+#### Jest and Enzyme used for unit testing
+
 [Live Demo](https://expensify-sk.netlify.com)
 
 To start development server use:
@@ -32,4 +34,4 @@ FIREBASE_APP_ID;
 
 When ran in development, project will look for env variables in `.env.development` file.
 
-When test suit is ran, project will look for env variables in `.env.test` file to, which has different values for test database.
+When test suite is ran, project will look for env variables in `.env.test` file, which has different values for test database.

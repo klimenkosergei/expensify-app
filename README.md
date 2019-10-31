@@ -30,5 +30,6 @@ FIREBASE_MESSAGING_SENDER_ID;
 FIREBASE_APP_ID;
 ```
 
-When run in development, project will look for these variables in `.env.development` file.
-When test suit is ran, project will look for these variables in `.env.test` file to have seperate from live database for testing.
+When ran in development, project will look for env variables in `.env.development` file.
+
+When test suit is ran, project will look for env variables in `.env.test` file to, which has different values for test database.

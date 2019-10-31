@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render EditExpensePage correctly 1`] = `
+<div
+  className="create"
+>
+  <div
+    className="create__wrapper"
+  >
+    <h2
+      className="create__title"
+    >
+      Edit Expense
+    </h2>
+    <ExpenseForm
+      expense={
+        Object {
+          "amount": 195,
+          "createdAt": -345600000,
+          "description": "Coffee",
+          "id": "2",
+          "note": "",
+        }
+      }
+      onSubmit={[Function]}
+    />
+    <button
+      className="create__btn"
+      onClick={[Function]}
+    >
+      Delete
+    </button>
+  </div>
+</div>
+`;

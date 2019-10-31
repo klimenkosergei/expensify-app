@@ -1,0 +1,57 @@
+.header {
+    display: flex;
+    background: #25384f;
+    color: #ffffff;
+    padding: 2rem;
+    justify-content: center;
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        flex: 0 0 100%;
+        max-width: 100rem;
+    }
+
+    &__title {
+        font-size: 4rem;
+        font-family: 'Fredoka One', cursive;
+        font-weight: 400;
+        margin-right: 4rem;
+    }
+
+    &__link {
+        &:link,
+        &:visited {
+            color: #ffffff;
+            font-size: 1.7rem;
+            text-decoration: none;
+            margin-right: 2rem;
+
+            padding-top: 2px;
+            border-bottom: 2px solid transparent;
+        }
+    }
+
+    .is-active {
+        border-color: #ffffff;
+    }
+
+    &__btn {
+        margin-left: auto;
+        border: none;
+        cursor: pointer;
+        font-size: 1.7rem;
+        color: #ffffff;
+        background: none;
+        padding-top: 2px;
+        border-bottom: 2px solid transparent;
+
+        &:focus {
+            outline: none;
+        }
+
+        &:hover {
+            border-color: #ffffff;
+        }
+    }
+}

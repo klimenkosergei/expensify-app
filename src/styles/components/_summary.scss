@@ -1,0 +1,16 @@
+.summary {
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
+    &__text {
+        font-size: 2.5rem;
+        max-width: 100rem;
+    }
+
+    &__text--bold {
+        font-weight: 700;
+    }
+}

@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Header correctly 1`] = `
+<header
+  className="header"
+>
+  <div
+    className="header__wrapper"
+  >
+    <h1
+      className="header__title"
+    >
+      BudgetApp
+    </h1>
+    <NavLink
+      activeClassName="is-active"
+      className="header__link"
+      to="/dashboard"
+    >
+      Dashboard
+    </NavLink>
+    <NavLink
+      activeClassName="is-active"
+      className="header__link"
+      to="/create"
+    >
+      Create Expense
+    </NavLink>
+    <button
+      className="header__btn"
+      onClick={[MockFunction]}
+    >
+      Log Out
+    </button>
+  </div>
+</header>
+`;

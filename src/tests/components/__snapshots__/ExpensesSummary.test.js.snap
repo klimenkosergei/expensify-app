@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ExpensesSummary with multiple visible expense 1`] = `
+<div
+  className="summary__wrapper"
+>
+  <p
+    className="summary__text"
+  >
+    Viewing
+     
+    <span
+      className="summary__text summary__text--bold"
+    >
+      3
+    </span>
+     
+    expenses totalling
+     
+    <span
+      className="summary__text summary__text--bold"
+    >
+      $1,102.95
+    </span>
+  </p>
+</div>
+`;
+
+exports[`should render ExpensesSummary with one visible expense 1`] = `
+<div
+  className="summary__wrapper"
+>
+  <p
+    className="summary__text"
+  >
+    Viewing
+     
+    <span
+      className="summary__text summary__text--bold"
+    >
+      1
+    </span>
+     
+    expenses totalling
+     
+    <span
+      className="summary__text summary__text--bold"
+    >
+      $4.00
+    </span>
+  </p>
+</div>
+`;

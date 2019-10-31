@@ -1,0 +1,44 @@
+.filters {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+
+    &__wrapper {
+        flex: 0 0 100%;
+        max-width: 100rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        & > * {
+            margin-right: 2rem;
+        }
+    }
+
+    &__text-filter {
+        font-size: 1.9rem;
+        line-height: 2.4rem;
+        padding: 11px 11px 9px;
+        border-radius: 2px;
+        border: 1px solid #dbdbdb;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &__sort-filter {
+        font-size: 1.9rem;
+        line-height: 2.4rem;
+        padding: 11px 11px;
+        border-radius: 2px;
+        border: 1px solid #dbdbdb;
+        color: #3c4043;
+        height: 4.8rem;
+        background: #ffffff;
+
+        &:focus {
+            outline: none;
+        }
+    }
+}

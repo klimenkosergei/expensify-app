@@ -1,0 +1,66 @@
+.login-header {
+    background: #25384f;
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem;
+
+    &__heading {
+        font-size: 4rem;
+        font-family: 'Fredoka One', cursive;
+        font-weight: 400;
+    }
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    //background: #cddb3d;
+    background: #fff;
+    height: calc(100vh - 88px);
+    color: #3c4043;
+
+    &__caption {
+        flex: 0 0 35rem;
+        margin-top: 10rem;
+        margin-right: 5rem;
+
+        .caption__header {
+            font-family: 'Fredoka One', cursive;
+            font-size: 5rem;
+            margin-bottom: 2rem;
+            font-weight: 400;
+        }
+
+        .caption__description {
+            font-family: 'Indie Flower', cursive;
+            font-size: 2.2rem;
+            margin-bottom: 3rem;
+        }
+
+        .caption__cta {
+            width: 25rem;
+            height: 3.7rem;
+            padding: 0 2rem;
+            border-radius: 4px;
+            box-shadow: 0 1px 7px rgba(0,0,0,.05);
+            border: 1px solid rgba(0,0,0,.15);
+            background: #ffffff;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+
+            .cta__icon {
+                vertical-align: middle;
+                height: 2.5rem;
+                line-height: 2.5rem;
+                margin-right: 5px;
+            }
+
+            .cta__label {
+                font-size: 1.5rem;
+                line-height: 3.7rem;
+                font-family: 'Open Sans', sans-serif;
+            }
+        }
+    }
+}

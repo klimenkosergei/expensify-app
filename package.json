@@ -1,0 +1,52 @@
+{
+  "name": "expensify-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "build:prod": "webpack --env production",
+    "dev-server": "webpack-dev-server",
+    "test": "NODE_ENV=test jest --config=jest.config.js",
+    "test:watch": "NODE_ENV=test jest --watch --config=jest.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.1",
+    "dotenv": "^8.0.0",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.13.0",
+    "enzyme-to-json": "^3.3.5",
+    "firebase": "^6.0.4",
+    "history": "^4.9.0",
+    "mini-css-extract-plugin": "^0.6.0",
+    "moment": "^2.24.0",
+    "node-sass": "^4.12.0",
+    "numeral": "^2.0.6",
+    "react": "^16.8.6",
+    "react-dates": "^20.1.0",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.0.3",
+    "react-router-dom": "^5.0.0",
+    "react-test-renderer": "^16.8.6",
+    "redux": "^4.0.1",
+    "redux-mock-store": "^1.5.3",
+    "redux-thunk": "^2.3.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "uuid": "^3.3.2",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.3.1"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}

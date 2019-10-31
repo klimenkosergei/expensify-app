@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ExpensesList with expenses 1`] = `
+<div
+  className="list"
+>
+  <div
+    className="list__wrapper"
+  >
+    <div
+      className="list__header"
+    >
+      <span
+        className="list__header-item"
+      >
+        Expenses
+      </span>
+      <span
+        className="list__header-item"
+      >
+        Amount
+      </span>
+    </div>
+    <ExpensesListItem
+      amount={400}
+      createdAt={0}
+      description="McDonalds"
+      id="1"
+      key="1"
+      note=""
+    />
+    <ExpensesListItem
+      amount={195}
+      createdAt={-345600000}
+      description="Coffee"
+      id="2"
+      key="2"
+      note=""
+    />
+    <ExpensesListItem
+      amount={109700}
+      createdAt={345600000}
+      description="Rent"
+      id="3"
+      key="3"
+      note=""
+    />
+  </div>
+</div>
+`;
+
+exports[`should render ExpensesList with no expenses message 1`] = `
+<div
+  className="list"
+>
+  <div
+    className="list__wrapper"
+  >
+    <div
+      className="list__header"
+    >
+      <span
+        className="list__header-item"
+      >
+        Expenses
+      </span>
+      <span
+        className="list__header-item"
+      >
+        Amount
+      </span>
+    </div>
+    <p
+      className="list__item list__item--empty"
+    >
+      No expenses found
+    </p>
+  </div>
+</div>
+`;

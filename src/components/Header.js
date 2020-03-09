@@ -7,7 +7,7 @@ import { startLogOut } from '../actions/auth';
 const Header = ({ logOut }) => (
   <header className='header'>
     <div className='header__wrapper'>
-      <h1 className='header__title'>BudgetApp</h1>
+      <h1 className='header__title'>Expensify</h1>
       <NavLink
         to='/dashboard'
         className='header__link'
@@ -35,9 +35,6 @@ const mapDispatchToProps = dispatch => ({
   }
 });
 
-const ConnectedHeader = connect(
-  null,
-  mapDispatchToProps
-)(Header);
+const ConnectedHeader = connect(null, mapDispatchToProps)(Header);
 
 export { Header, ConnectedHeader as default };

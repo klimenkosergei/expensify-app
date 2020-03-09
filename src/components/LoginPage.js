@@ -6,7 +6,7 @@ import { startLogIn } from '../actions/auth';
 const LoginPage = ({ logIn }) => (
   <div>
     <header className='login-header'>
-      <h1 className='login-header__heading'>BudgetApp</h1>
+      <h1 className='login-header__heading'>Expensify</h1>
     </header>
     <div className='login-container'>
       <div className='login-container__caption'>
@@ -54,9 +54,6 @@ const mapDispatchToProps = dispatch => ({
   }
 });
 
-const ConnectedLoginPage = connect(
-  null,
-  mapDispatchToProps
-)(LoginPage);
+const ConnectedLoginPage = connect(null, mapDispatchToProps)(LoginPage);
 
 export { LoginPage, ConnectedLoginPage as default };

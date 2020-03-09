@@ -13,6 +13,10 @@ import LoadingPage from './components/LoadingPage';
 import './styles/main.scss';
 import 'react-dates/lib/css/_datepicker.css';
 
+// Import image assets
+import './img/loader.gif';
+import './img/login-img.png';
+
 const store = configureStore();
 
 const jsx = (

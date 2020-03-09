@@ -10,11 +10,11 @@ class EditExpensePage extends React.Component {
   }
   editExpense = expense => {
     this.props.editExpense(this.props.expense.id, expense);
-    this.props.history.push('/');
+    this.props.history.push('/projects/expensify');
   };
   removeExpense = () => {
     this.props.removeExpense(this.props.expense.id);
-    this.props.history.push('/');
+    this.props.history.push('/projects/expensify');
   };
   render() {
     return (

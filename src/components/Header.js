@@ -9,14 +9,14 @@ const Header = ({ logOut }) => (
     <div className='header__wrapper'>
       <h1 className='header__title'>Expensify</h1>
       <NavLink
-        to='/dashboard'
+        to='/projects/expensify/dashboard'
         className='header__link'
         activeClassName='is-active'
       >
         Dashboard
       </NavLink>
       <NavLink
-        to='/create'
+        to='/projects/expensify/create'
         className='header__link'
         activeClassName='is-active'
       >

@@ -10,7 +10,7 @@ class AddExpensePage extends React.Component {
   }
   addExpense = expense => {
     this.props.addExpense(expense);
-    this.props.history.push('/');
+    this.props.history.push('/projects/expensify');
   };
   render() {
     return (

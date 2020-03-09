@@ -16,10 +16,19 @@ const AppRouter = () => (
   <Router history={history}>
     <div>
       <Switch>
-        <PublicRoute exact path='/' component={LoginPage} />
-        <PrivateRoute path='/dashboard' component={ExpenseDashboardPage} />
-        <PrivateRoute path='/create' component={AddExpensePage} />
-        <PrivateRoute path='/edit/:id' component={EditExpensePage} />
+        <PublicRoute exact path='/projects/expensify' component={LoginPage} />
+        <PrivateRoute
+          path='/projects/expensify/dashboard'
+          component={ExpenseDashboardPage}
+        />
+        <PrivateRoute
+          path='/projects/expensify/create'
+          component={AddExpensePage}
+        />
+        <PrivateRoute
+          path='/projects/expensify/edit/:id'
+          component={EditExpensePage}
+        />
         <Route component={NotFoundPage} />
       </Switch>
     </div>

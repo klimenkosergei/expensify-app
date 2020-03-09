@@ -44,12 +44,12 @@ firebase.auth().onAuthStateChanged(user => {
       renderApp();
       // If user is on Login Page redirect to Dashboard
       if (history.location.pathname === '/') {
-        history.push('/dashboard');
+        history.push('/projects/expensify/dashboard');
       }
     });
   } else {
     store.dispatch(logOut());
     renderApp();
-    history.push('/');
+    history.push('/projects/expensify');
   }
 });

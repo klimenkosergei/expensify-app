@@ -1,26 +1,40 @@
 # Expensify App
 
-#### Client built using React
+### 📌Live версия доступна на [sergeyklimenko.com/projects/expensify](https://sergeyklimenko.com/projects/expensify)
 
-#### Firebase used for backend to store users and their expenses
+#### Учебный проект. Приложение для ведения списка расходов. Доступна регистрация с помощью аккаунта Google, создание расходов, редактирование, фильтрация.
 
-#### Jest and Enzyme used for unit testing
+#### В проекте использовались: React, Redux, React-Router, Sass, [Firebase](https://firebase.google.com/), Jest, Enzyme
 
-[Live Demo](https://expensify-sk.netlify.com)
+Для back-end'a в проекте используется сервис [Firebase](https://firebase.google.com/) от Google. Интеграция Firebase позволила добавить в приложение авторизацию, и базу данных для хранения пользователей и их расходов. Также используется React-Router для переходов между страницами авторизации, списка расходов, и страницами создания и редактирования расходов.
 
-To start development server use:
+Для приложения также написаны unit тесты используя фреймворк Jest и Enzyme для snapshots.
+
+Для запуска проекта с помощью Webpack Dev Server:
 
 ```javascript
 npm run dev-server
 ```
 
-To run test suite use:
+Для запуска тестов:
 
 ```javascript
 npm run test
 ```
 
-As Firebase used for backend, project relies on list of environment variables:
+!!! Для запуска тестов на Windows:
+
+```javascript
+npm run test:windows
+```
+
+Для компиляции проекта:
+
+```javascript
+npm run build
+```
+
+Для back-end'а используется сервис Firebase. При компиляции Webpack конвертирует env переменные в js. Лист переменных:
 
 ```javascript
 FIREBASE_API_KEY;
@@ -32,6 +46,6 @@ FIREBASE_MESSAGING_SENDER_ID;
 FIREBASE_APP_ID;
 ```
 
-When ran in development, project will look for env variables in `.env.development` file.
+Для демо версии и разработки переменные содержатся в файле `.env.development`.
 
-When test suite is ran, project will look for env variables in `.env.test` file, which has different values for test database.
+Для тестов переменные находятся в файле `.env.test`, и ведут к отдельной базе данных изолированной для тестов.
